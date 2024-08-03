@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "io.github.cpearl0.daybreakcore.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "mixins.daybreakcore.refmap.json",
+  "mixins": [
+    "ServerLevelMixin"
+  ],
+  "client": [],
+  "minVersion": "0.8"
+}
