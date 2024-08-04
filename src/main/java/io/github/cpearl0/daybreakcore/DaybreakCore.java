@@ -8,5 +8,5 @@ import org.slf4j.Logger;
 public class DaybreakCore
 {
     public static final String MODID = "daybreakcore";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 }

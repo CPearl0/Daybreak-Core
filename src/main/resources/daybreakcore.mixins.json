@@ -4,8 +4,11 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "mixins.daybreakcore.refmap.json",
   "mixins": [
+    "MinecraftServerMixin",
     "ServerLevelMixin"
   ],
-  "client": [],
+  "client": [
+    "ClientLevelMixin"
+  ],
   "minVersion": "0.8"
 }
