@@ -1,6 +1,6 @@
 package io.github.cpearl0.daybreakcore.mixin;
 
-import io.github.cpearl0.daybreakcore.data.DaybreakSavedData;
+import io.github.cpearl0.daybreakcore.world.DaybreakSavedData;
 import io.github.cpearl0.daybreakcore.network.TimeStateMessage;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;

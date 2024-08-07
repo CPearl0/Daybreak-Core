@@ -1,6 +1,6 @@
 package io.github.cpearl0.daybreakcore.mixin;
 
-import io.github.cpearl0.daybreakcore.data.DaybreakSavedData;
+import io.github.cpearl0.daybreakcore.world.DaybreakSavedData;
 import io.github.cpearl0.daybreakcore.network.ClientPayloadHandler;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.world.level.Level;

@@ -1,6 +1,6 @@
 package io.github.cpearl0.daybreakcore.network;
 
-import io.github.cpearl0.daybreakcore.data.DaybreakSavedData;
+import io.github.cpearl0.daybreakcore.world.DaybreakSavedData;
 import net.neoforged.neoforge.network.handling.IPayloadContext;
 
 public class ClientPayloadHandler {

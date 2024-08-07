@@ -1,4 +1,4 @@
-package io.github.cpearl0.daybreakcore.data;
+package io.github.cpearl0.daybreakcore.world;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
@@ -13,6 +13,14 @@ public class DaybreakSavedData extends SavedData {
     public static final int NIGHT_POSITIVE = 0;
     public static final int NIGHT_NEGATIVE = 1;
     public static final int NORMAL = 2;
+
+    public DaybreakSavedData(int timeState) {
+        this.timeState = timeState;
+    }
+
+    public DaybreakSavedData() {
+        this(NIGHT_POSITIVE);
+    }
 
     @Override
     public @NotNull CompoundTag save(CompoundTag pTag, HolderLookup.Provider pRegistries) {
